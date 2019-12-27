@@ -16,6 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        // you can test your default ViewController page
+//        let randomViewController = UIViewController()
+//        randomViewController.view.backgroundColor = .mainPink
+
+        // if you want to static layouting without tabBarController
+//        let layout = UICollectionViewFlowLayout()
+//        layout.scrollDirection = .horizontal
+//        let swipingController = SwipingController(collectionViewLayout: layout)
+//        window?.rootViewController = swipingController
+        
+        window?.rootViewController = HomeTabBarController()
+        UINavigationBar.appearance().barTintColor = .white // UIColor(red: 51/255, green: 99/255, blue: 149/255, alpha: 1)
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.mainPink]
+        UITabBar.appearance().tintColor = ColorTheme.redGoalkes
+        
         return true
     }
 

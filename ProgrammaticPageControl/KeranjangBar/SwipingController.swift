@@ -32,6 +32,7 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
             Page(imageName: "two", headerText: "VIP members", bodyText: "")
         ]
 
+            // hardcoded asset
     //    let imagesName = ["zero", "one", "two"]
     //    let headerStrings = ["Join us", "Subscribe and get", "VIP members"]
     
@@ -62,12 +63,6 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
         page.currentPageIndicatorTintColor = pinkColor
         page.pageIndicatorTintColor = UIColor(red: 249/255, green: 207/255, blue: 224/255, alpha: 1)
         return page
-    }()
-    
-    lazy var searchNavBar: UISearchController = {
-        let searchBar = UISearchController(searchResultsController: nil)
-        
-        return searchBar
     }()
     
     @objc private func handlePrev() {
@@ -122,8 +117,8 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
         
         navigationItem.leftBarButtonItem = btnLeft
         
-        navigationController?.navigationBar.tintColor = .mainPink
-        navigationItem.title = "Feed Yeah!"
+        navigationController?.navigationBar.tintColor = ColorTheme.redGoalkes
+        navigationItem.title = "Keranjang"
 
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

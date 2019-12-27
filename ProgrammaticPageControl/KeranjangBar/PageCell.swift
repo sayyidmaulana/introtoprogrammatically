@@ -21,7 +21,7 @@ class PageCell: UICollectionViewCell {
             descriptionText.textAlignment = .center
         }
     }
-    
+
     private let zeroImageView: UIImageView = {
         let imageView = UIImageView(image: #imageLiteral(resourceName: "zero"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -33,14 +33,14 @@ class PageCell: UICollectionViewCell {
         textView.isEditable = false
         textView.isScrollEnabled = false
         textView.translatesAutoresizingMaskIntoConstraints = false
-        
+
         // we don't need this anymore it going to be reassign
         let attrText = NSMutableAttributedString(string: "Join us immediatelly in our fun!", attributes: [NSAttributedString.Key.font:UIFont.boldSystemFont(ofSize: 18)])
         attrText.append(NSAttributedString(string: "\n\n\nAre you ready for loads and loads of fun? Don't wait any longer! We hope to see you in our store soon!", attributes: [NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.gray]))
         textView.attributedText = attrText
         textView.textAlignment = .center
         //
-        
+
         return textView
     }()
     override init(frame: CGRect) {

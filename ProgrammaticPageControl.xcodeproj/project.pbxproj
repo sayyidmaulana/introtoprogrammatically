@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B0AA8C823B2138500487ACE /* Beranda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0AA8C723B2138500487ACE /* Beranda.swift */; };
+		0B0AA8CB23B21AAD00487ACE /* Pesan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0AA8CA23B21AAD00487ACE /* Pesan.swift */; };
 		0B259B1023ABA5CF00364DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B259B0F23ABA5CF00364DBE /* AppDelegate.swift */; };
 		0B259B1223ABA5CF00364DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B259B1123ABA5CF00364DBE /* ViewController.swift */; };
 		0B259B1523ABA5CF00364DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B259B1323ABA5CF00364DBE /* Main.storyboard */; };
@@ -14,6 +16,13 @@
 		0B259B1A23ABA5D900364DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B259B1823ABA5D900364DBE /* LaunchScreen.storyboard */; };
 		0B259B2523ABA5D900364DBE /* ProgrammaticPageControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B259B2423ABA5D900364DBE /* ProgrammaticPageControlTests.swift */; };
 		0B259B3023ABA5D900364DBE /* ProgrammaticPageControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B259B2F23ABA5D900364DBE /* ProgrammaticPageControlUITests.swift */; };
+		0B3B2CB123AE635900A1A4EC /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B2CB023AE635900A1A4EC /* HomeTabBarController.swift */; };
+		0B5EF01723AC6B3F002132A6 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5EF01623AC6B3F002132A6 /* SwipingController.swift */; };
+		0B5EF01923AC7413002132A6 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5EF01823AC7413002132A6 /* PageCell.swift */; };
+		0B5EF01B23AC7BE6002132A6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5EF01A23AC7BE6002132A6 /* Page.swift */; };
+		0BD8E4A123B463C7003AB33C /* UIConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8E4A023B463C7003AB33C /* UIConstraints.swift */; };
+		0BD8E4A323B463E7003AB33C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8E4A223B463E7003AB33C /* UIColor.swift */; };
+		0BD8E4A523B4B7E1003AB33C /* FirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD8E4A423B4B7E1003AB33C /* FirstCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B0AA8C723B2138500487ACE /* Beranda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beranda.swift; sourceTree = "<group>"; };
+		0B0AA8CA23B21AAD00487ACE /* Pesan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pesan.swift; sourceTree = "<group>"; };
 		0B259B0C23ABA5CF00364DBE /* ProgrammaticPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B259B0F23ABA5CF00364DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B259B1123ABA5CF00364DBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,13 @@
 		0B259B2B23ABA5D900364DBE /* ProgrammaticPageControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgrammaticPageControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B259B2F23ABA5D900364DBE /* ProgrammaticPageControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticPageControlUITests.swift; sourceTree = "<group>"; };
 		0B259B3123ABA5D900364DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3B2CB023AE635900A1A4EC /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		0B5EF01623AC6B3F002132A6 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		0B5EF01823AC7413002132A6 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		0B5EF01A23AC7BE6002132A6 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		0BD8E4A023B463C7003AB33C /* UIConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstraints.swift; sourceTree = "<group>"; };
+		0BD8E4A223B463E7003AB33C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		0BD8E4A423B4B7E1003AB33C /* FirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B082E4F23B0FA6400DD6B27 /* KeranjangBar */ = {
+			isa = PBXGroup;
+			children = (
+				0B5EF01A23AC7BE6002132A6 /* Page.swift */,
+				0B5EF01823AC7413002132A6 /* PageCell.swift */,
+				0B5EF01623AC6B3F002132A6 /* SwipingController.swift */,
+			);
+			path = KeranjangBar;
+			sourceTree = "<group>";
+		};
+		0B0AA8C623B2135300487ACE /* BerandaBar */ = {
+			isa = PBXGroup;
+			children = (
+				0B0AA8C723B2138500487ACE /* Beranda.swift */,
+				0BD8E4A423B4B7E1003AB33C /* FirstCell.swift */,
+			);
+			path = BerandaBar;
+			sourceTree = "<group>";
+		};
+		0B0AA8C923B21A8900487ACE /* Pesan */ = {
+			isa = PBXGroup;
+			children = (
+				0B0AA8CA23B21AAD00487ACE /* Pesan.swift */,
+			);
+			path = Pesan;
+			sourceTree = "<group>";
+		};
 		0B259B0323ABA5CF00364DBE = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +142,17 @@
 		0B259B0E23ABA5CF00364DBE /* ProgrammaticPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				0BD8E49F23B463A3003AB33C /* UIKit */,
+				0B0AA8C923B21A8900487ACE /* Pesan */,
+				0B0AA8C623B2135300487ACE /* BerandaBar */,
+				0B082E4F23B0FA6400DD6B27 /* KeranjangBar */,
 				0B259B0F23ABA5CF00364DBE /* AppDelegate.swift */,
 				0B259B1123ABA5CF00364DBE /* ViewController.swift */,
 				0B259B1323ABA5CF00364DBE /* Main.storyboard */,
 				0B259B1623ABA5D900364DBE /* Assets.xcassets */,
 				0B259B1823ABA5D900364DBE /* LaunchScreen.storyboard */,
 				0B259B1B23ABA5D900364DBE /* Info.plist */,
+				0B3B2CB023AE635900A1A4EC /* HomeTabBarController.swift */,
 			);
 			path = ProgrammaticPageControl;
 			sourceTree = "<group>";
@@ -123,6 +173,15 @@
 				0B259B3123ABA5D900364DBE /* Info.plist */,
 			);
 			path = ProgrammaticPageControlUITests;
+			sourceTree = "<group>";
+		};
+		0BD8E49F23B463A3003AB33C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0BD8E4A023B463C7003AB33C /* UIConstraints.swift */,
+				0BD8E4A223B463E7003AB33C /* UIColor.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +317,15 @@
 			files = (
 				0B259B1223ABA5CF00364DBE /* ViewController.swift in Sources */,
 				0B259B1023ABA5CF00364DBE /* AppDelegate.swift in Sources */,
+				0BD8E4A523B4B7E1003AB33C /* FirstCell.swift in Sources */,
+				0B3B2CB123AE635900A1A4EC /* HomeTabBarController.swift in Sources */,
+				0B0AA8C823B2138500487ACE /* Beranda.swift in Sources */,
+				0BD8E4A123B463C7003AB33C /* UIConstraints.swift in Sources */,
+				0B5EF01923AC7413002132A6 /* PageCell.swift in Sources */,
+				0B0AA8CB23B21AAD00487ACE /* Pesan.swift in Sources */,
+				0B5EF01723AC6B3F002132A6 /* SwipingController.swift in Sources */,
+				0B5EF01B23AC7BE6002132A6 /* Page.swift in Sources */,
+				0BD8E4A323B463E7003AB33C /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
