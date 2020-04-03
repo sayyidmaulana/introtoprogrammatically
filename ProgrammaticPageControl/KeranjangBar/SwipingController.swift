@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import iCarousel
 
 class SwipingController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
@@ -113,13 +114,17 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
         
         collectionView?.backgroundColor = UIColor(white: 0.95, alpha: 1)
         
-        let btnLeft = UIBarButtonItem(image: #imageLiteral(resourceName: "arrowleft"), style: UIBarButtonItem.Style.plain, target: nil, action: nil)
-        
+        let btnLeft = UIBarButtonItem(image: #imageLiteral(resourceName: "saldo"), style: UIBarButtonItem.Style.plain, target: self, action: #selector(movePage))
         navigationItem.leftBarButtonItem = btnLeft
         
         navigationController?.navigationBar.tintColor = ColorTheme.redGoalkes
         navigationItem.title = "Keranjang"
 
+    }
+    @objc func movePage() {
+        let topBar = XLPager()
+        topBar.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(topBar, animated: true)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0

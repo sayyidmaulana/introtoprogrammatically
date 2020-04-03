@@ -33,8 +33,8 @@ class FirstCell: UICollectionViewCell {
     
     func setupView() {
         addSubview(bgView)
-
-        bgView.setAnchor(top: topAnchor, left: leadingAnchor, bottom: nil, right: trailingAnchor, paddingTop: 10, paddingLeft: 10, paddingBottom: 0, paddingRight: 10, width: frame.width - 20, height: frame.height - 20)
+        
+//        bgView.setAnchor(top: topAnchor, left: leadingAnchor, bottom: nil, right: trailingAnchor, paddingTop: 10, paddingLeft: 10, paddingBottom: 0, paddingRight: 10, width: frame.width - 20, height: frame.height - 20)
 
 //        addSubview(lblTitleTP)
 //        lblTitleTP.setAnchor(top: imgView.bottomAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor, paddingTop: 0, paddingLeft: 0, paddingBottom: 0, paddingRight: 0)

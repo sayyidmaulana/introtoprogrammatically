@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ProgrammaticPageControl_ProgrammaticPageControlUITests : NSObject
+@end
+@implementation PodsDummy_Pods_ProgrammaticPageControl_ProgrammaticPageControlUITests
+@end

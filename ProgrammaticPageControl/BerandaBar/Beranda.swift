@@ -26,7 +26,8 @@ class Beranda: UICollectionViewController, UICollectionViewDelegateFlowLayout {
         collectionView.register(FirstCell.self, forCellWithReuseIdentifier: "first")
         collectionView?.backgroundColor = UIColor(white: 0.95, alpha: 1)
         
-        let btnWallet = UIBarButtonItem(image: #imageLiteral(resourceName: "saldo"), style: UIBarButtonItem.Style.plain, target: nil, action: nil)
+        let customImage = UIImage(named: "saldo")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
+        let btnWallet = UIBarButtonItem(image: customImage, style: UIBarButtonItem.Style.plain, target: self, action: #selector(movePage))
         let btnWish =  UIBarButtonItem(image: #imageLiteral(resourceName: "keinginan"), style: UIBarButtonItem.Style.plain, target: nil, action: nil)
         let btnNotif = UIBarButtonItem(image: #imageLiteral(resourceName: "notifikasi"), style: UIBarButtonItem.Style.plain, target: nil, action: nil)
         
@@ -40,7 +41,11 @@ class Beranda: UICollectionViewController, UICollectionViewDelegateFlowLayout {
         
 //        var leftNavBarButton = UIBarButtonItem(customView:searchNavBar)
     }
-    
+    @objc func movePage() {
+        let topBar = XLPager()
+        topBar.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(topBar, animated: true)
+    }
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 1
     }

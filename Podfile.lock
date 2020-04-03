@@ -1,0 +1,32 @@
+PODS:
+  - CircularCarousel (1.0.0)
+  - iCarousel (1.8.3)
+  - TinyConstraints (4.0.1)
+  - UPCarouselFlowLayout (1.1.2)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - CircularCarousel
+  - iCarousel
+  - TinyConstraints
+  - UPCarouselFlowLayout
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  trunk:
+    - CircularCarousel
+    - iCarousel
+    - TinyConstraints
+    - UPCarouselFlowLayout
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  CircularCarousel: 6248f5892c018fc2d115d4d5186be91d46bacbea
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 612568a0755b644ff45a5ab93d17d37e0d25ca1f
+
+COCOAPODS: 1.8.4

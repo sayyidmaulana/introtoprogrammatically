@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-ProgrammaticPageControl-ProgrammaticPageControlUITests/Pods-ProgrammaticPageControl-ProgrammaticPageControlUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CircularCarousel/CircularCarousel.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework
+${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework
+${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework
+${BUILT_PRODUCTS_DIR}/iCarousel/iCarousel.framework
