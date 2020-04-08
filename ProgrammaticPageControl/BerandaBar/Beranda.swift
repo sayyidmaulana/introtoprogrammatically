@@ -29,7 +29,7 @@ class Beranda: UICollectionViewController, UICollectionViewDelegateFlowLayout {
         let customImage = UIImage(named: "saldo")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         let btnWallet = UIBarButtonItem(image: customImage, style: UIBarButtonItem.Style.plain, target: self, action: #selector(movePage))
         let btnWish =  UIBarButtonItem(image: #imageLiteral(resourceName: "keinginan"), style: UIBarButtonItem.Style.plain, target: nil, action: nil)
-        let btnNotif = UIBarButtonItem(image: #imageLiteral(resourceName: "notifikasi"), style: UIBarButtonItem.Style.plain, target: nil, action: nil)
+        let btnNotif = UIBarButtonItem(image: #imageLiteral(resourceName: "notifikasi"), style: UIBarButtonItem.Style.plain, target: self, action: #selector(checkFeature))
         
 //        let searchNavBar = UISearchController(searchResultsController: nil)
         
@@ -61,5 +61,15 @@ class Beranda: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 350, height: 200)
 //        return CGSize(width: (view.frame.width - 16 * 4) / 3, height: 100)
+    }
+    @objc func checkFeature() {
+        let nav = Captcha()
+        nav.providesPresentationContextTransitionStyle = true
+        nav.definesPresentationContext = true
+//        nav.modalPresentationStyle = UIModalPresentationStyle.overFullScreen
+        nav.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        nav.modalPresentationStyle = .overCurrentContext
+        nav.hidesBottomBarWhenPushed = true
+        self.navigationController?.present(nav, animated: true, completion: nil)
     }
 }

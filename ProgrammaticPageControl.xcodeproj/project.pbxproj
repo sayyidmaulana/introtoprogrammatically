@@ -39,6 +39,9 @@
 		FAB2D08023F300850051F3D6 /* ChildThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D07F23F300850051F3D6 /* ChildThree.swift */; };
 		FAB2D08223F300940051F3D6 /* ChildFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D08123F300940051F3D6 /* ChildFour.swift */; };
 		FAB2D08423F300A40051F3D6 /* ChildFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2D08323F300A40051F3D6 /* ChildFive.swift */; };
+		FAFD6729243CC1FA0036A93D /* Captcha.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD6728243CC1FA0036A93D /* Captcha.swift */; };
+		FAFD672B243CC2590036A93D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD672A243CC2590036A93D /* UIViewExtension.swift */; };
+		FAFD672D243CC2D40036A93D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFD672C243CC2D40036A93D /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,9 @@
 		FAB2D07F23F300850051F3D6 /* ChildThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildThree.swift; sourceTree = "<group>"; };
 		FAB2D08123F300940051F3D6 /* ChildFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildFour.swift; sourceTree = "<group>"; };
 		FAB2D08323F300A40051F3D6 /* ChildFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildFive.swift; sourceTree = "<group>"; };
+		FAFD6728243CC1FA0036A93D /* Captcha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captcha.swift; sourceTree = "<group>"; };
+		FAFD672A243CC2590036A93D /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FAFD672C243CC2D40036A93D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +215,7 @@
 				0B259B1B23ABA5D900364DBE /* Info.plist */,
 				0B3B2CB023AE635900A1A4EC /* HomeTabBarController.swift */,
 				FA915C282436F397003E6784 /* Switcher.swift */,
+				FAFD6728243CC1FA0036A93D /* Captcha.swift */,
 			);
 			path = ProgrammaticPageControl;
 			sourceTree = "<group>";
@@ -236,6 +243,8 @@
 			children = (
 				0BD8E4A023B463C7003AB33C /* UIConstraints.swift */,
 				0BD8E4A223B463E7003AB33C /* UIColor.swift */,
+				FAFD672A243CC2590036A93D /* UIViewExtension.swift */,
+				FAFD672C243CC2D40036A93D /* Utilities.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -520,6 +529,7 @@
 			files = (
 				FAB2D06F23F266A90051F3D6 /* Child1.swift in Sources */,
 				0B259B1223ABA5CF00364DBE /* ViewController.swift in Sources */,
+				FAFD6729243CC1FA0036A93D /* Captcha.swift in Sources */,
 				FA915C292436F397003E6784 /* Switcher.swift in Sources */,
 				0B259B1023ABA5CF00364DBE /* AppDelegate.swift in Sources */,
 				FAB2D07323F266CF0051F3D6 /* Child3.swift in Sources */,
@@ -532,6 +542,7 @@
 				0B0AA8C823B2138500487ACE /* Beranda.swift in Sources */,
 				0BD8E4A123B463C7003AB33C /* UIConstraints.swift in Sources */,
 				FAB2D08223F300940051F3D6 /* ChildFour.swift in Sources */,
+				FAFD672D243CC2D40036A93D /* Utilities.swift in Sources */,
 				FAB2D07E23F300750051F3D6 /* ChildTwo.swift in Sources */,
 				FAB2D08423F300A40051F3D6 /* ChildFive.swift in Sources */,
 				0B5EF01923AC7413002132A6 /* PageCell.swift in Sources */,
@@ -539,6 +550,7 @@
 				0B5EF01723AC6B3F002132A6 /* SwipingController.swift in Sources */,
 				0B5EF01B23AC7BE6002132A6 /* Page.swift in Sources */,
 				FAB2D06D23F253500051F3D6 /* MainTopTabBar.swift in Sources */,
+				FAFD672B243CC2590036A93D /* UIViewExtension.swift in Sources */,
 				0BD8E4A323B463E7003AB33C /* UIColor.swift in Sources */,
 				FAB2D07523F266DF0051F3D6 /* Child4.swift in Sources */,
 				FAB2D07C23F300670051F3D6 /* ChildOne.swift in Sources */,

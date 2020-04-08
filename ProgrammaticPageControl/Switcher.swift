@@ -6,6 +6,8 @@
 //  Copyright © 2020 sayyid maulana khakul yakin. All rights reserved.
 //
 
+import UIKit
+
 class Switcher {
     
     static func updateRootVC(){
