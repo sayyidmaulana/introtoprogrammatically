@@ -14,8 +14,6 @@ class XLPager: ButtonBarPagerTabStripViewController {
 let purpleInspireColor = UIColor(red:0.13, green:0.03, blue:0.25, alpha:1.0)
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // change selected bar color
         settings.style.buttonBarBackgroundColor = .white
         settings.style.buttonBarItemBackgroundColor = .white
         settings.style.selectedBarBackgroundColor = purpleInspireColor
@@ -37,7 +35,10 @@ let purpleInspireColor = UIColor(red:0.13, green:0.03, blue:0.25, alpha:1.0)
         //get rod of containerView offset
              edgesForExtendedLayout = []
         
-            buttonBarView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 0).isActive = true
+        super.viewDidLoad()
+        // change selected bar color
+        buttonBarView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 0).isActive = true
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
