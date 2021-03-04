@@ -12,16 +12,9 @@ class Switcher {
     
     static func updateRootVC(){
         
-//        let status = UserDefaults.standard.bool(forKey: "statusRoot")
-        var rootVC : UIViewController?
-       
-//            print(status)
+            var rootVC : UIViewController?
 
-//        if(status == true){
-                rootVC = HomeTabBarController()
-//        } else {
-//
-//        }
+            rootVC = HomeTabBarController()
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             appDelegate.window?.rootViewController = rootVC
     }

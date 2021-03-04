@@ -29,7 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let swipingController = SwipingController(collectionViewLayout: layout)
 //        window?.rootViewController = swipingController
         
-        window?.rootViewController = HomeTabBarController()
+        if UserDefaults.standard.bool(forKey: "newUser") {
+            window?.rootViewController = HomeTabBarController()
+        } else {
+            window?.rootViewController = WelcomeController()
+        }
+        
         UINavigationBar.appearance().barTintColor = .white // UIColor(red: 51/255, green: 99/255, blue: 149/255, alpha: 1)
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.mainPink]
         UITabBar.appearance().tintColor = ColorTheme.redGoalkes

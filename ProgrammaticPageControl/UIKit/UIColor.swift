@@ -8,6 +8,60 @@
 
 import UIKit
 
+extension UIColor {
+    
+    static func compileColor(hex: String) -> UIColor {
+        let hexCode = hex.uppercased()
+        
+        var rgbValue: UInt64 = 0
+        Scanner(string: hexCode).scanHexInt64(&rgbValue)
+        
+        return UIColor.init(
+            red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+            green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+            blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+            alpha: 1.0
+        )
+    }
+    
+    static var gray100 = compileColor(hex: "F7FAFC")
+    static var gray200 = compileColor(hex: "EDF2F7")
+    static var gray300 = compileColor(hex: "E2E8F0")
+    static var gray400 = compileColor(hex: "CBD5E0")
+    static var gray500 = compileColor(hex: "A0AEC0")
+    static var gray600 = compileColor(hex: "718096")
+    static var gray700 = compileColor(hex: "4A5568")
+    static var gray800 = compileColor(hex: "2D3748")
+    
+    static var red100 = compileColor(hex: "FFF5F5")
+    static var red200 = compileColor(hex: "FED7D7")
+    static var red300 = compileColor(hex: "FEB2B2")
+    static var red400 = compileColor(hex: "FC8181")
+    static var red500 = compileColor(hex: "F56565")
+    static var red600 = compileColor(hex: "E53E3E")
+    static var red700 = compileColor(hex: "C53030")
+    static var red800 = compileColor(hex: "9B2C2C")
+    
+    static var green100 = compileColor(hex: "F0FFF4")
+    static var green200 = compileColor(hex: "C6F6D5")
+    static var green300 = compileColor(hex: "9AE6B4")
+    static var green400 = compileColor(hex: "68D391")
+    static var green500 = compileColor(hex: "48BB78")
+    static var green600 = compileColor(hex: "38A169")
+    static var green700 = compileColor(hex: "2F855A")
+    static var green800 = compileColor(hex: "276749")
+    
+    static var blue100 = compileColor(hex: "EBF8FF")
+    static var blue200 = compileColor(hex: "BEE3F8")
+    static var blue300 = compileColor(hex: "90CDF4")
+    static var blue400 = compileColor(hex: "63B3ED")
+    static var blue500 = compileColor(hex: "4299E1")
+    static var blue600 = compileColor(hex: "3182CE")
+    static var blue700 = compileColor(hex: "2B6CB0")
+    static var blue800 = compileColor(hex: "2C5282")
+    
+}
+
 struct ColorTheme {
     
     static let colorPrimary = UIColor(netHex: 0xC5495A)
